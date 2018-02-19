@@ -294,6 +294,9 @@ public class AbucoinsAdapters {
                   
     case open:
       return OrderStatus.NEW;
+      
+    case closed:
+      return OrderStatus.PENDING_CANCEL;
                   
     case done:
       return OrderStatus.FILLED;

@@ -176,6 +176,6 @@ public class AbucoinsOrder {
   }
   
   public enum Status {
-    pending, open, done, rejected;
+    pending, open, closed, done, rejected;
   }
 }
